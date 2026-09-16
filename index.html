@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="uz">
+<style>
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxliyo | Portfolio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7ff;
+            color: #222;
+        }
+
+        nav {
+            background: #ffffff;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+        }
+
+        nav h2 {
+            color: #5b4be7;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #5b4be7, #8e7dff);
+            color: white;
+            text-align: center;
+            padding: 90px 20px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            display: inline-block;
+            background: white;
+            color: #5b4be7;
+            padding: 14px 28px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 40px 30px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+
+        section h2 {
+            color: #5b4be7;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        section p {
+            line-height: 1.7;
+            font-size: 17px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill {
+            background: #eeeaff;
+            color: #5b4be7;
+            padding: 14px 25px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+
+        .projects {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            flex: 1;
+            min-width: 250px;
+            padding: 25px;
+            background: #f4f7ff;
+            border-radius: 15px;
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+            color: #5b4be7;
+        }
+
+        footer {
+            text-align: center;
+            background: #222;
+            color: white;
+            padding: 30px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>Maxliyo ✨</h2>
+
+        <div>
+            <a href="#about">Men haqimda</a>
+            <a href="#skills">Ko‘nikmalar</a>
+            <a href="#projects">Loyihalar</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>Salom, men Maxliyo 👋</h1>
+
+        <p>
+            Men o‘quvchiman va IT sohasini o‘rganmoqdaman.
+        </p>
+
+        <a class="button" href="#about">Men haqimda</a>
+    </div>
+
+    <section id="about">
+        <h2>Men haqimda 🌷</h2>
+
+        <p>
+            Men yangi bilimlarni o‘rganishni, ijod qilishni
+            va dasturlash bilan shug‘ullanishni yaxshi ko‘raman.
+            Hozirda HTML va CSS orqali web dasturlashni o‘rganmoqdaman.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Ko‘nikmalarim 💻</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">English</div>
+            <div class="skill">Drawing</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Loyihalarim 🚀</h2>
+
+        <div class="projects"><div class="project">
+                <h3>Portfolio Website</h3>
+                <p>
+                    O‘zim haqimda ma’lumot beruvchi
+                    shaxsiy portfolio saytim.
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>My Future Project</h3>
+                <p>
+                    Kelajakda dasturlash orqali
+                    o‘z loyihalarimni yaratmoqchiman.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <img src="main.jpg" alt="My portfolio image">
+    <footer>
+        <p>© 2026 Maxliyo | My Portfolio 💜</p>
+    </footer>
+
+</body>
+</html>
